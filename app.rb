@@ -12,6 +12,6 @@ class App < Sinatra::Base
   end 
   
   get '/date' do
-    "The date is "
+    "The date is < % = "
   end 
 end
