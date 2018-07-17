@@ -1,8 +1,8 @@
 class App < Sinatra::Base
 
-	get '/' do
-		erb :index
-	end
+# 	get '/' do
+# 		erb :index
+# 	end
 
   get '/hello' do 
   end 
@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end 
   
   get '/date' do
+    erb :date
     "The date is " < % = Date.today.strftime("%A, %B %d, %Y") % >
   end 
 end
