@@ -12,6 +12,6 @@ class App < Sinatra::Base
   end 
   
   get '/date' do
-    "The date is "
+    "The date is Date.today.strftime("%A, %B %d, %Y")"
   end 
 end
