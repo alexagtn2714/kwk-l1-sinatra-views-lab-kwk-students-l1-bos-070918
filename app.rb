@@ -9,4 +9,7 @@ class App < Sinatra::Base
 
   get '/goodbye' do
   end 
+  
+  get '/date'
+  end 
 end
