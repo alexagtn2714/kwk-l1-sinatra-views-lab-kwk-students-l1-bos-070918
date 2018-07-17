@@ -4,8 +4,7 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-get '/hello'
-erb :hello
+get '/hello' do 
 end 
 
 end
